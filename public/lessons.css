@@ -1,0 +1,74 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Creating columns for different screen sizes */
+  @media (min-width: 768px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .column {
+      width: 33.33%;
+    }
+  }
+
+  /* Styles for the video cards */
+  .video-card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .video-card iframe {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    border: none;
+  }
+
+  .video-card .card-content {
+    padding: 10px;
+  }
+
+  .video-card .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .video-card .description {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+
+  .video-card .watch-video {
+    display: block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .video-card .watch-video:hover {
+    background-color: #0056b3;
+  }
+
+  .title {
+    padding: 0;
+    margin-top: -14px;
+    margin-bottom: -8px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .description {
+    color: #000;
+  }
